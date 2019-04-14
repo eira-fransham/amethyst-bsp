@@ -1,0 +1,11 @@
+[package]
+name = "amethyst-bsp"
+version = "0.1.0"
+authors = ["Jef <jackefransham@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+amethyst = "0.10"
+bsp = { git = "https://github.com/Vurich/bsp.git" }
+itertools = "0.8"
+serde = "1.0"
